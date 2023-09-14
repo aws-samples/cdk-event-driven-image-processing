@@ -1,0 +1,9 @@
+ /* Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. */
+ /* SPDX-License-Identifier: MIT-0 */
+
+.m-processor--pg-index {
+    max-width: 1200px;
+    max-height: 850px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 10px 50px;
+}

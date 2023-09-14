@@ -1,0 +1,46 @@
+ /* Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. */
+ /* SPDX-License-Identifier: MIT-0 */
+
+.m-processor--cp-ifu_placeholder {
+    padding: 0.25rem 1.25rem;
+    height: 70%;
+    width: 100%;
+    border-radius: 0.75rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.m-processor--cp-ifu_upload {
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+}
+
+.m-processor--cp-ifu_upload:hover {
+    background: linear-gradient(120deg, var(--amplify-colors-brand-primary-10), var(--amplify-colors-brand-secondary-20));
+}
+
+.m-processor--cp-ifu_placeholder img {
+    width: 100%;
+    height: 100%;
+}
+
+.m-processor--cp-ifu_image {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    border-radius: .75rem;
+    padding: 5rem;
+    background:linear-gradient(120deg, rgba(233,248,251, .8), rgba(248,185,249, .8));
+    cursor: pointer;
+}
+
+.m-processor--cp-ifu_image img {
+    height: 100%;
+}
