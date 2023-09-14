@@ -1,6 +1,6 @@
 # Event-Driven Image Processing using AWS CDK
 
-This sample code deploys event-driven image resizing solution in the Amazon Web Services (AWS) Cloud using the AWS Cloud Development Kit (AWS CDK). The project leverages Python CDK for infrastructure setup,  and React for frontend. It deploys an environment based on a simple design pattern required for upload, processing, and storage of image files.
+This sample code deploys event-driven image resizing solution in the Amazon Web Services (AWS) Cloud using the AWS Cloud Development Kit (AWS CDK). The project leverages Python CDK for infrastructure setup, and React based SPA application for frontend. It deploys an environment based on a simple design pattern required for upload, processing, and storage of image files.
 
 ## Architecture
 

@@ -33,6 +33,7 @@ class API(Construct):
             partition_key=dynamodb.Attribute(
                 name="id", type=dynamodb.AttributeType.STRING
             ),
+            removal_policy=cdk.RemovalPolicy.DESTROY,
         )
 
         # create a python based lambda function
@@ -93,6 +94,7 @@ class API(Construct):
             "access-logs",
             log_group_name="rest-api-access-logs",
             retention=logs.RetentionDays.ONE_WEEK,
+            removal_policy=cdk.RemovalPolicy.DESTROY,
         )
 
         self.apigw = apigw.LambdaRestApi(

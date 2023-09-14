@@ -13,8 +13,9 @@ from frontend.stack import Frontend
 app = cdk.App()
 
 # create backend stack
-Backend(app, "backend")
+backend = Backend(app, "backend")
 # create frontend stack and provide backend API endpoint
-Frontend(app, "frontend")
+frontend = Frontend(app, "frontend")
+frontend.add_dependency(backend)
 
 app.synth()
